@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 14px 18px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-right: 7px;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.7s;
+    font-weight: bold;   
+}
+
+.buttons :hover {
+    background-color: rgb(233, 2, 2);
+    border: 2px solid rgb(233, 2, 2);
+    color: white;
+}
+
+#time {
+    font-size: 60px;
+}
+
+.switch {
+    width: 60px;
+    height: 34px;
+}
+
+.white-mode {
+    background-color: white;
+    color: black;
+}
+
+#mode_color {
+    text-align: right;
+    font-size: 30px;
+}
+
+#hideButton {
+    padding: 2px 4px;
+}
+
+#l {
+    display: inline;
+}
+
+#left {
+    width: 27%;
+    text-align: center;
+}
+
+#center {
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#right {
+    width: 27%;
+    display: flex;
+    align-items: flex-end;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.buttons2 {
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.buttons2 :hover  div {
+    color: burlywood;
+}
+
+#lapstime {
+    margin: 0px 25px;
+    font-size: 30px;
+    
+}
+#laps {
+    margin : 20px 0px;
+}
+
+.clear_remove {
+    cursor: pointer
+}
+
+#clear :hover {
+    font-size: 40px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>STOPWATCH</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="left">
+            <div class="buttons2">
+                <div><span class="clear_remove" id="clear">Clear</span> <span id="lapstime">LAPS TIME</span> <span class="clear_remove" id="remove">Remove</span></div>
+            </div>
+         <div id="laps"></div>
+        </div>
+        <div id="center">
+            <div id="container2">
+                <button  class="xd" id="x" onclick="SwitchMode()">Light Mode</button>
+                <h1>
+                    STOPWATCH
+                </h1>
+                <p id="time"><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="tens">00</span></p>
+                <div class="buttons">
+                    <button id="start">START</button>
+                    <button id="stop">STOP</button>
+                    <button id="reset">RESET</button>
+                    <button id="lap">LAP</button>
+                </div> 
+            </div>
+        </div>
+        <div id="right">
+            <div id="mode_color">
+                Currently on the Dark Mode
+            </div> 
+        </div>
+    </div> 
+    
+
+</body>
+</html>
